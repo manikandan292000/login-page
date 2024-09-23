@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.countainer{
+    width: 85%;
+    margin: auto;
+
+}
+section{
+    background-image:url(./image/image2.jpg);
+    height:100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+    
+	
+}
+.fullbox{
+    width:400px;
+    margin-left: 10%;
+    margin-top: 7%;
+    background-color:rgb(223, 234, 204);
+    border-radius: 10px;
+    padding:30px; 
+    
+    
+    }
+    
+ .login_box{
+        width:400px;
+        height: 400px;
+        margin-left:27%;
+        margin-top: 9%;
+        background-color:rgb(223, 234, 204);
+        border-radius: 10px;
+        padding:30px;   
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: red;
+       
+    }
+    #username{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:40px;
+        padding-left:3px;
+        border-radius:5px;
+        font-size:15px;
+        margin-top: 5px;
+        border: 2px solid aqua;
+        outline: 0;
+        margin-bottom:20px;
+    }
+    #email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:40px;
+        padding-left:3px;
+        border-radius:5px;
+        font-size:15px;
+        margin-top: 5px;
+        border: 2px solid aqua;
+        outline: 0;
+        margin-bottom:20px;
+    }
+    #password{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:40px;
+        padding-left:3px;
+        border-radius:5px;
+        font-size:15px;
+        margin-top: 5px;
+        border: 2px solid aqua;
+        outline: 0;
+        margin-bottom:20px;
+    }
+    #cformpassword{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:40px;
+        padding-left:3px;
+        border-radius:5px;
+        font-size:15px;
+        margin-top: 5px;
+        border: 2px solid aqua;
+        outline: 0;
+        margin-bottom:20px;
+    }
+    label{
+        font-size:17px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: blueviolet;
+    }
+    #username:hover{
+        border: 2px solid aqua;
+    }
+    #mail_error{
+        color:rgb(178, 10, 10);
+       padding: 0 0 0 5px;
+       font-family:sans-serif;
+       font-size: 12px;
+       
+    }
+    #name_error{
+        color:rgb(178, 10, 10);
+       padding: 0 0 0 7px;
+       font-family:sans-serif;
+       font-size: 12px;
+    }
+    #pwd_error{
+        color:rgb(178, 10, 10);
+       padding: 0 0 0 7px;
+       font-family:sans-serif;
+       font-size: 12px;
+    }
+    #c_pwd_error{
+        color:rgb(178, 10, 10);
+       padding: 0 0 0 7px;
+       font-family:sans-serif;
+       font-size: 12px;
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn button{
+        width: 50%;
+        padding: 10px ;
+        border-radius:10px;
+        border: none;
+        background-color: rgb(36, 127, 219);
+        color: white;
+        font-size: 17px;
+    
+        font-family: sans-serif;   
+    }
+    #icon_one{
+        display:none;
+       color:rgb(178, 10, 10);
+       font-size: 12px;
+       
+    }
+    #icon_two{
+        display:none;
+       color:rgb(178, 10, 10);
+       font-size: 12px;
+    }
+    #icon_three{
+        display:none;
+       color:rgb(178, 10, 10);
+       font-size: 12px;
+    }
+    #icon_four{
+        display:none;
+       color:rgb(178, 10, 10);
+       font-size: 12px;
+    }
+    .icon_flex{
+        display: flex;
+    margin-bottom:10px;
+    }
+
+
+    
+    h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:rgb(46, 32, 150);
+}
+#login_mail{
+    width: 100%;
+    height:40px;
+    padding-left:3px;
+    border-radius:5px;
+    font-size:15px;
+    margin-top:50px;
+    border: 2px solid rgb(27, 73, 142);
+    outline: 0;
+    margin-bottom:20px;
+}
+#login_password{
+    width: 100%;
+    height:40px;
+    padding-left:3px;
+    border-radius:5px;
+    font-size:15px;
+    margin-top:10px;
+    border: 2px solid rgb(27, 73, 142);
+    outline: 0;
+    margin-bottom:20px;
+}
+.login_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login_button{
+    width: 50%;
+    padding: 10px ;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(36, 127, 219);
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;   
+}
+.main{
+    display: flex;
+    
+}
+
+#login_icon{
+    display:none;
+    color:rgb(178, 10, 10);
+    font-size: 12px;
+    padding-left:100px;
+    padding-top:30px;
+    font-size: 20px;
+    padding-left: 85px;
+}
+.log_msg{
+    color:rgb(178, 10, 10);
+    padding: 0 0 0 7px;
+    font-family:sans-serif;
+    font-size: 12px;
+    padding-top: 30px;
+    font-size: 17px;
+
+}  
+#name{
+    font-family:sans-serif;
+    padding-left:45px;
+    padding-top: 20px;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
